@@ -3,12 +3,9 @@ import { connect } from 'react-redux';
 import styled from 'styled-components';
 import store from '../store';
 import { increment, decrement } from '../actions/counter-actions';
-import Button from '../components/button'
+import Button from '../components/button';
+import SubHeading from '../components/subheading'
 import RouterLink from '../components/link';
-
-const SubHeading = styled.h2`
-  font-size: 18px;
-`;
 
 const Wrapper = styled.section`
   padding: 0.5rem;
